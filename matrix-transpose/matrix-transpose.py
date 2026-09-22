@@ -6,8 +6,6 @@ def matrix_transpose(A: list) -> np.ndarray:
     """
     # create rows
     transposed = [[] for i in range(len(A[0]))]
-
-    print(transposed)
     
     # matrix transpose
     for i in range(len(A)):
